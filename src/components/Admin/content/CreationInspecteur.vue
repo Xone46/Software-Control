@@ -50,7 +50,7 @@
 </template>
 
 <script>
-import Inspecteurs from "../../../database/inspecteurs";
+import Inspecteurs from '../../../database/inspecteurs'
 export default {
   data() {
     return {

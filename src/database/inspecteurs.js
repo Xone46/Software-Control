@@ -1,4 +1,5 @@
-var PouchDB = require('pouchdb');
-var inspecteurs = new PouchDB('inspecteurs');
+import PouchDB from 'pouchdb'
+const inspecteurs = new PouchDB('inspecteurs');
 
-export default inspecteurs;
+export default inspecteurs
+
