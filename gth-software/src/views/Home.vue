@@ -8,7 +8,7 @@
 
 <script>
 // @ is an alias to /src
-import Authetfication from "@/components/Authetfication.vue";
+import Authetfication from "@/components/Home/Authetfication.vue";
 
 export default {
   name: "Home",
@@ -30,12 +30,8 @@ export default {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 40px;
+  padding-top: 40px;
   flex-direction: column;
 }
 
-.home .container img {
-  width: 300px;
-  padding: 10px;
-}
 </style>
